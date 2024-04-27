@@ -1,0 +1,72 @@
+.header {
+    padding: 1.5rem 0;
+
+    .block__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        &-logo {
+            img {
+                width: 5.3rem;
+            }
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            li {
+                a {
+                    font-size: 2.4rem;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+
+            li {
+                a {
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .btn-pri {
+            padding: 1rem 3rem 1.2rem;
+            gap: .5rem;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%);
+            border: 1px solid #A259FF;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #fff;
+
+            img {
+                position: relative;
+                top: 0.2rem;
+            }
+
+        }
+    }
+}
